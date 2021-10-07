@@ -44,10 +44,6 @@ table {
 /* Start of home page*/
 body{
 line-height: 1.5;
-    margin-top: 30px;
-	margin-left: 120px;
-	margin-right: 50px;
-	margin-bottom: 30px;
 }
 a{
 	text-decoration: none;
@@ -103,41 +99,26 @@ h2{
 
 }
 .circle{
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
+
 	background-color:#99D8CA;
-	display:inline-block;
-	border: 2px solid black;
-	vertical-align: bottom;
 }
 .circle1{
+	background-color:#0D1430 ;
+}
+.circle, .circle1, .circle2, .circle3 {
 	width: 20px;
 	height: 20px;
 	border-radius: 50%;
-	background-color:#0D1430 ;
 	display:inline-block;
 	border: 2px solid black;
 	vertical-align: bottom;
 
 }
 .circle2{
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
 	background-color: #90FFA9;
-	display:inline-block;
-	border: 2px solid black;
-	vertical-align: bottom;
 }
 .circle3{
-	width: 20px;
-	height: 20px;
-	border-radius: 50%;
 	background-color:#5873E2;
-	display:inline-block;
-	border: 2px solid black;
-	vertical-align:bottom;
 }
 .marker{
 	margin-right: 20px;
@@ -159,7 +140,8 @@ h3{
 	margin: 26px auto;
 	font-size: 0;}
 
-.child-container{
+.child-container ,.child-container2
+{
 	width: 200px;
 	height: 180px;
 	margin: 10px;
@@ -167,11 +149,6 @@ h3{
 	display: inline-block;
 }
 .child-container2{
-	width: 200px;
-	height: 180px;
-	margin: 10px;
-	background-color: #DBE9F4;
-	display: inline-block;
 	border: 2px solid black;
 }
 .border-box{
@@ -243,13 +220,7 @@ button{
 
 }
 	
-.child-containerc{
-	width: 600px;
-	height: 350px;
-	margin-right: 35px;
-	display: inline-block;
-}
-.child-containerd{
+.child-containerc,.child-containerd,.child-containere{
 	width: 600px;
 	height: 350px;
 	margin-right: 35px;
@@ -263,10 +234,6 @@ button{
 	margin-left: 170px;
 }	
 .child-containere{
-	width: 600px;
-	height: 350px;
-	margin-right: 35px;
-	display: inline-block;
 	vertical-align: top;
 }
 .child-containerf{
@@ -275,13 +242,7 @@ button{
 	margin-right: 35px;
 	display: inline-block;
 }
-a.l1{
-	color: green;
-	text-decoration :underline;
-	font-size: 20px;
-	font-weight: bolder;
-}
-a.l2{
+a.l1 , a.l2{
 	color: green;
 	text-decoration :underline;
 	font-size: 20px;
